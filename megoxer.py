@@ -21,7 +21,7 @@ OWNER_ID = "6442837812"  # Owner's user ID (full access)
 SUB_ADMINS = set()       # Will hold sub-admin user IDs
 
 # Cooldown configuration
-DEFAULT_COOLDOWN = 5  # seconds (default remains in seconds)
+DEFAULT_COOLDOWN = 1 # seconds (default remains in seconds)
 user_cooldowns = {}   # per-user cooldown in seconds
 
 # This dictionary will record which admin granted which user.
